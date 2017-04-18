@@ -1,5 +1,6 @@
 ﻿function ConvertTo-MrHashTable {
     [CmdletBinding()]
+    [OutputType([PSCustomObject]) 
     param (
         [Parameter(Mandatory,
                    ValueFromPipeline)]
